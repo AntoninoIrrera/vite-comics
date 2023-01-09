@@ -17,7 +17,7 @@
             <div>
                 <ul>
                     <li>Characters</li>
-                    <li>Comics</li>
+                    <li class="active">Comics <div class="riga-active"></div> </li>
                     <li>Movies</li>
                     <li>Tv</li>
                     <li>Games</li>
@@ -45,6 +45,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        position: relative;
     }
 
     ul{
@@ -55,5 +56,16 @@
     li{
         padding: 0 1rem;
         font-weight: bold;
+    }
+
+    .active{
+        color: blue;
+    }
+
+    .riga-active{
+        border: 2px solid blue;
+        position: absolute;
+        bottom: 0;
+        width: 50px;
     }
 </style>
