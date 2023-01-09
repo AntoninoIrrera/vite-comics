@@ -60,16 +60,15 @@ export default {
         height: 150px;
         background-color: black;
         display: flex;
-        justify-content: center;
         align-items: center;
     }
 
     .riga-blu{
-        /* height: 150px; */
         padding: 3rem;
         background-color: blue;
         display: flex;
         justify-content: center;
+        /* align-items: center; */
     }
 
     img{
