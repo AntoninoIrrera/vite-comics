@@ -36,12 +36,12 @@
 
 <style scoped>
 .riga-nera{
-        height: 50px;
+        height: 25px;
         background-color: black;
     }
 
     .navbar{
-        padding: 2rem;
+        padding: 0.5rem;
         display: flex;
         justify-content: space-around;
         align-items: center;
