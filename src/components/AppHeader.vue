@@ -1,0 +1,59 @@
+<script >
+
+
+
+
+
+</script>
+
+<template>
+    <header>
+
+        <section class="riga-nera"></section>
+        <section class="navbar">
+            <div>
+                <img src="../assets/img/dc-logo.png" alt="dc-logo">
+            </div>
+            <div>
+                <ul>
+                    <li>Characters</li>
+                    <li>Comics</li>
+                    <li>Movies</li>
+                    <li>Tv</li>
+                    <li>Games</li>
+                    <li>Collectibiles</li>
+                    <li>Videos</li>
+                    <li>Fans</li>
+                    <li>News</li>
+                    <li>Shop</li>
+                </ul>
+            </div>
+        </section>
+    
+    </header>
+
+</template>
+
+<style scoped>
+.riga-nera{
+        height: 50px;
+        background-color: black;
+    }
+
+    .navbar{
+        padding: 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    ul{
+        display: flex;
+        list-style-type: none;
+    }
+    
+    li{
+        padding: 0 1rem;
+        font-weight: bold;
+    }
+</style>
