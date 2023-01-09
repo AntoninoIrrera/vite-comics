@@ -48,11 +48,23 @@
                 </ul>
             </div>
             <div class="img-footer">
-                <img src="../assets/img/dc-logo-bg.png" alt="dc-logo">
+                <img class="logo-footer" src="../assets/img/dc-logo-bg.png" alt="dc-logo">
             </div>
         </section>
-        <section></section>
-        <section></section>
+        <section class="social-footer">
+            <div>
+                <a href="#">Sign-Up Now!</a>
+            </div>
+            <div class="socials">
+                <h2>Follow Us</h2>
+                <img class="img-social" src="../assets/img/footer-facebook.png" alt="facebook">
+                <img class="img-social" src="../assets/img/footer-twitter.png" alt="twitter">
+                <img class="img-social" src="../assets/img/footer-youtube.png" alt="youtube">
+                <img class="img-social" src="../assets/img/footer-pinterest.png" alt="pinteres">
+                <img class="img-social" src="../assets/img/footer-periscope.png" alt="periscope">
+            </div>
+        </section>
+        <section class="riga-nera"></section>
     </footer>
 
 </template>
@@ -74,7 +86,7 @@
         position: relative;
     }
 
-    img{
+    .logo-footer{
         position: absolute;
         top: -75px;
     }
@@ -91,6 +103,37 @@
 
     li{
         padding: 0.25rem 0;
+    }
+
+    .social-footer{
+        padding: 0.5rem;
+        background-color: rgb(27, 25, 25);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        border: 2px solid blue;
+        padding: 0.5rem;
+
+    }
+    
+    h2{
+        color: blue;
+        display: inline-block;
+        vertical-align: super;
+    }
+
+    .img-social{
+        margin-left: 0.5rem;
+    }
+
+    .riga-nera{
+        background-color: black;
+        height: 25px;
     }
 
     .bold{
