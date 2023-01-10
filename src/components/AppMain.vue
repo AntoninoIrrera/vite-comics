@@ -125,6 +125,7 @@ export default {
             <div v-for="serie in currentSeries" class="contenitoreImg">
                 <CurrentSeries :pathImg="serie.thumb" :title="serie.series"/>
             </div>
+            <div class="bottoneLoadMore">Load More</div>
         </section>
 
         <section class="riga-blu">
@@ -145,6 +146,19 @@ export default {
     background-color: blue;
     position: absolute;
     top: -20px;
+    text-align: center;
+}
+
+.bottoneLoadMore{
+    width: 150px;
+    padding: 1rem;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
 }
 .riga-nera{
         background-color: black;
