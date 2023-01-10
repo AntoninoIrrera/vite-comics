@@ -29,12 +29,19 @@
                 </ul>
             </div>
         </section>
-    
+        <section class="jumbo">
+
+        </section>
     </header>
 
 </template>
 
 <style scoped>
+
+.jumbo{
+    background-image: url(../assets/img/jumbotron.jpg);
+    height: 450px;
+}
 .riga-nera{
         height: 25px;
         background-color: black;
