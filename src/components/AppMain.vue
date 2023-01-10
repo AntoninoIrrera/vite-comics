@@ -121,6 +121,7 @@ export default {
     <main>
 
         <section class="riga-nera">
+            <div class="bottoneSerie">Current Series</div>
             <div v-for="serie in currentSeries" class="contenitoreImg">
                 <CurrentSeries :pathImg="serie.thumb" :title="serie.series"/>
             </div>
@@ -137,11 +138,20 @@ export default {
 </template>
 
 <style scoped>
+.bottoneSerie{
+    width: 150px;
+    padding: 1rem;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top: -20px;
+}
 .riga-nera{
         background-color: black;
         display: flex;
         flex-wrap: wrap;
         padding: 4rem;
+        position: relative;
     }
 
     .contenitoreImg {
